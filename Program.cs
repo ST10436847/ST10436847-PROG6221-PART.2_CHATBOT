@@ -10,10 +10,10 @@ using NAudio.Wave;
 namespace St10436847_PROG6221_Part._2_Chatbot
 {
     class Program
-    {      
+    {
         static Dictionary<string, string> userMemory = new Dictionary<string, string>();
         static Dictionary<string, string[]> keywordResponses = new Dictionary<string, string[]>
-        {     //keywords
+        {     //keyword
             { "password", new[] {
                 "Make sure to use strong, unique passwords for each account.",
                 "Avoid using personal details in your passwords.",
