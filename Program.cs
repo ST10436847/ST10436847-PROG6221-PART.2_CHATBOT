@@ -100,7 +100,7 @@ namespace St10436847_PROG6221_Part._2_Chatbot
                 }
             }
 
-            // Sentiment detection
+            //Sentiment detection
             if (input.Contains("worried") || input.Contains("scared") || input.Contains("anxious"))
             {
                 PrintWithTypingEffect("It's completely understandable to feel that way. Scammers can be very convincing. Let me share some tips to help you stay safe.");
