@@ -90,7 +90,7 @@ namespace St10436847_PROG6221_Part._2_Chatbot
 
         static void RespondToUser(string input)
         {
-            // Optimised keyword response
+            //Optimised keyword response
             foreach (var pair in keywordResponses)
             {
                 if (input.Contains(pair.Key))
@@ -129,7 +129,7 @@ namespace St10436847_PROG6221_Part._2_Chatbot
                     PrintWithTypingEffect("Could you tell me what you'd like to learn more about?");
                 }
             }
-            else if (input.Contains("how are you"))
+            else if (input.Contains("how are you")) 
             {
                 PrintWithTypingEffect("I'm just a bot, but I'm here to help!");
             }
